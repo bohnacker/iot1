@@ -10,7 +10,9 @@
 
 ### Übung 2: Parkettierungen
 
-[PDF](documents/01_Parkettierungen.pdf)
+[PDF](documents/02_Parkettierungen.pdf)
+
+[PDF](documents/02b_Parkettierungen.pdf)
 
 ---
 
