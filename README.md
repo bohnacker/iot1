@@ -12,7 +12,7 @@
 
 [PDF Aufgabe](documents/02_Parkettierungen.pdf)
 
-[PDF Kristallografische Gruppen](documents/02b_Parkettierungen.pdf)
+[PDF Kristallografische Gruppen](documents/02_Kristallografische_Gruppen.pdf)
 
 ---
 
