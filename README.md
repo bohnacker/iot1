@@ -10,9 +10,9 @@
 
 ### Übung 2: Parkettierungen
 
-[PDF](documents/02_Parkettierungen.pdf)
+[PDF Aufgabe](documents/02_Parkettierungen.pdf)
 
-[PDF](documents/02b_Parkettierungen.pdf)
+[PDF Kristallografische Gruppen](documents/02b_Parkettierungen.pdf)
 
 ---
 
