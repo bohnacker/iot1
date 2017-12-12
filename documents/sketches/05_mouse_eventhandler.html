@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GMYND Sketch</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../lib/gmynd_base.css">
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600"></svg>
+
+<script src="../lib/gmynd.js" type="text/javascript"></script>
+<script type="text/javascript">
+// ==== Put your scripts here ====
+
+var circle1 = createNode("circle", {cx:300, cy:300, r:100});
+var circle2 = createNode("circle", {cx:100, cy:200, r:50});
+var circle3 = createNode("circle", {cx:500, cy:100, r:50});
+
+circle1.addEventListener("mousedown", downHandler);
+circle1.addEventListener("mouseup", upHandler);
+circle1.addEventListener("mouseleave", upHandler);
+
+circle2.addEventListener("mousedown", downHandler);
+circle2.addEventListener("mouseup", upHandler);
+circle2.addEventListener("mouseleave", upHandler);
+
+circle3.addEventListener("mousedown", downHandler);
+circle3.addEventListener("mouseup", upHandler);
+circle3.addEventListener("mouseleave", upHandler);
+
+function downHandler(e) {
+	e.preventDefault();
+	e.target.setAttribute("fill", "red");
+}
+
+function upHandler(e) {
+	e.preventDefault();
+	e.target.setAttribute("fill", "black");
+}
+
+// ======== End of scripts =======
+</script>
+
+</body>
+</html>
