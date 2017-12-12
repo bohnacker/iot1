@@ -16,3 +16,16 @@
 
 ---
 
+### Sketches
+
+[01_hello_world.html](sketches/01_hello_world.html)
+[02_hello_rect.html](sketches/02_hello_rect.html)
+[03_hello_polygon.html](sketches/03_hello_polygon.html)
+[04_polygon_transform_parkett_for.html](sketches/04_polygon_transform_parkett_for.html)
+[04_polygon_transform_parkett.html](sketches/04_polygon_transform_parkett.html)
+[05_mouse_eventhandler_2.html](sketches/05_mouse_eventhandler_2.html)
+[05_mouse_eventhandler_3.html](sketches/05_mouse_eventhandler_3.html)
+[05_mouse_eventhandler.html](sketches/05_mouse_eventhandler.html)
+[06_mouse_gmynd_2.html](sketches/06_mouse_gmynd_2.html)
+[06_mouse_gmynd_b.html](sketches/06_mouse_gmynd_b.html)
+[06_mouse_gmynd.html](sketches/06_mouse_gmynd.html)
