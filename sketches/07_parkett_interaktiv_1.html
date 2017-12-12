@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GMYND Sketch</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../lib/gmynd_base.css">
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600"></svg>
+
+<script src="../lib/gmynd.js" type="text/javascript"></script>
+<script type="text/javascript">
+// ==== Put your scripts here ====
+
+
+
+animate(function() {
+	clearAll();
+
+	var pnts = (90-Mouse.x) + " -50, " + (130-Mouse.x) + " -50, " + Mouse.x + " 30, " + (Mouse.x-90) + " 50";
+
+
+	for (var j = 0; j < 12; j++) {
+
+		for (var i = 0; i < 30; i++) {
+			var versatzX = map(Mouse.x, 100, 110, 20, 0);
+
+			var x = 0 + i * 130 - j * versatzX;
+			var y = 0 - i * 20 + j * 100;
+
+			createNode("polygon", {transform:"translate("+x+" "+y+")", points:pnts, fill:"none", stroke:"black", opacity:0.5});
+			createNode("polygon", {transform:"translate("+x+" "+y+") rotate(180)", points:pnts, fill:"#ddd", stroke:"black", opacity:0.5});
+		}
+
+	}
+
+});
+
+// Mouse.x   Zeilenversatz
+//   100           20
+//   105           10
+//   110            0
+
+// ======== End of scripts =======
+</script>
+
+</body>
+</html>

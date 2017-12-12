@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GMYND Sketch</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../lib/gmynd_base.css">
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600"></svg>
+
+<script src="../lib/gmynd.js" type="text/javascript"></script>
+<script type="text/javascript">
+// ==== Put your scripts here ====
+
+
+
+animate(function() {
+	clearAll();
+
+	var d = Mouse.x / 5;
+
+	var pnts = [-50,   -50, 
+	             50,   -50, 
+	             50+d, -25, 
+	             50,     0, 
+	             50-d,  25, 
+	             50,    50, 
+	            -50,    50].join(" ");
+
+
+	for (var j = 0; j < 10; j++) {
+
+		for (var i = 0; i < 10; i++) {
+
+			var x = i * 200;
+			var y = j * 100;
+
+			createNode("polygon", {transform:"translate("+x+" "+y+")", points:pnts, fill:"none", stroke:"black", opacity:0.5});
+
+			createNode("polygon", {transform:"translate("+(x+100)+" "+(y)+") rotate(180)", points:pnts, fill:"#ddd", stroke:"black", opacity:0.5});
+		}
+
+	}
+
+});
+
+// ======== End of scripts =======
+</script>
+
+</body>
+</html>

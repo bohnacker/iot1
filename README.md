@@ -34,8 +34,11 @@
 
 [05_mouse_eventhandler.html](sketches/05_mouse_eventhandler.html)
 
+[06_mouse_gmynd.html](sketches/06_mouse_gmynd.html)
+
 [06_mouse_gmynd_2.html](sketches/06_mouse_gmynd_2.html)
 
 [06_mouse_gmynd_b.html](sketches/06_mouse_gmynd_b.html)
 
-[06_mouse_gmynd.html](sketches/06_mouse_gmynd.html)
+[07_parkett_interaktiv_1.html](sketches/07_parkett_interaktiv_1.html)
+[07_parkett_interaktiv_p2.html](sketches/07_parkett_interaktiv_p2.html)
